@@ -1,0 +1,19 @@
+.header-container{
+    background-color: #13141c;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-login-part{
+    flex-direction: row;
+    width: 50%;
+}
+.header-identity-part{
+    flex-direction: row;
+    width: 50%;
+}
+.header-login-part a,
+.header-identity-part a {
+    text-decoration: none;
+    color: white;
+}
