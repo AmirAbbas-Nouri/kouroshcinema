@@ -3,14 +3,37 @@
     color: white;
     display: flex;
     flex-direction: row-reverse;
+    align-content: baseline;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
-.header-login-part{
+.header-login-part,.header-identity-part{
+    padding: 0 13%;
     flex-direction: row;
     width: 50%;
+    
 }
-.header-identity-part{
-    flex-direction: row;
-    width: 50%;
+.header-login-part div{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-login-part div p{
+    border: #3e3f45 solid 1px;
+    padding: 7px;
+    border-radius: 7px;
+}
+.header-identity-part div{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.header-identity-part div div{
+    width: 20%;
 }
 .header-login-part a,
 .header-identity-part a {
